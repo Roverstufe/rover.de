@@ -1,0 +1,27 @@
+main:
+  - name: "Voco"
+    url: "https://voco.rover.de"
+    weight: 2
+  - name: "Wiki"
+    url: "https://wiki.rover.de"
+    weight: 3
+  - name: "Roverway"
+    url: "https://roverway.de"
+    weight: 4
+  - name: "Themen"
+    url: "/services/"
+    weight: 5
+  - name: "Kontakt"
+    url: "/contact/"
+    weight: 6
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Kontakt"
+    url: "/contact/"
+    weight: 2
+  - name: "Impressum"
+    url: "https://dpsg.de/de/impressum"
+    weight: 3

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Voco Dokumentation",
+    "description": "Die <a href='https://voco.rover.de'>Dokumentation</a> des rover Bundesunternehmens 2022",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Roverway 2024",
+    "description": "Alles über das <a href='https://roverway.de'>Roverway 2024</a> in Norwegen",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Wiki der Roverstufe",
+    "description": "Unser <a href='https://wiki.rover.de'>Leitungshandbuch</a> als Wiki für Roverleiter*innen",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
