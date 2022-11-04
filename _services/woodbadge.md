@@ -9,7 +9,7 @@ Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 # Geplante Kurse
 ## Region Mitte
 
-![Logo WBK](images/../../images/wbk-mitte-bild.png)
+![Logo WBK](/images/wbk/wbk-mitte-bild.png)
 
 Du willst schon seit langem Dein Leitungshandeln üben und verbessern? Du willst Dich Persönlich weiterentwickeln? Neue Kompetenzen und Selbsterfahrungen durch und mit der Projektmethode gewinnen? Dann heißt es für Dich jetzt:
 
@@ -37,7 +37,7 @@ Zum Kurs gehört ein Entwicklungswochenende vom 7.7.-9.7.2023 im Ziegelhaus in 6
 Weitere Fragen an: [maximilian.groesche@dpsg-freiburg.de](mailto:maximilian.groesche@dpsg-freiburg.de)
 Falls Kinderbetreuung gewünscht wird, nimm bitte Kontakt mit uns auf.
 
-Die Ausschreibung als [PDF]
+Die Ausschreibung als [PDF](/images/wbk/Ausschreibung-WBK23-BFE.pdf)
 
 Die Anmeldung der ausrichtenden Diözesanverbände:
 
