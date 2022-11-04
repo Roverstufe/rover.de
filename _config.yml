@@ -3,9 +3,9 @@ permalink: pretty
 title: 'Roverstufe in der DPSG'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
+  mobile: "images/logo/rover-mobile.svg"
+  mobile_height: "50px"
+  mobile_width: "50px"
   desktop: "images/logo/rover.svg"
   desktop_height: "25px"
   desktop_width: "120px"
@@ -18,7 +18,7 @@ collections:
     output: true
     sort_by: weight
   team:
-    output: true
+    output: false
 
 defaults:
   - scope:
