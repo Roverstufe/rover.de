@@ -21,10 +21,11 @@ Wir wollen mit Dir eine rundherum nette und lehrreiche Woche im schönen Schwarz
 Teilnahmevoraussetzung ist ein Mindestalter von 22 Jahren und natürlich die abgeschlossene Modulausbildung.
 
 Wir freuen uns auf Dich, Dein Kursteam:
-• Barbara Seiler, Diözesanarbeitskreis Roverstufe DV Freiburg
-• Jan Knoll, Diözesanarbeitskreis Roverstufe DV Fulda
-• Maximilian Grösche, Diözesanarbeitskreis Roverstufe DV Freiburg
-• Lukas Bockstaller, Diözesanarbeitskreis Roverstufe DV Freiburg
+
+- Barbara Seiler, Diözesanarbeitskreis Roverstufe DV Freiburg
+- Jan Knoll, Diözesanarbeitskreis Roverstufe DV Fulda
+- Maximilian Grösche, Diözesanarbeitskreis Roverstufe DV Freiburg
+- Lukas Bockstaller, Diözesanarbeitskreis Roverstufe DV Freiburg
 
 **Kurz und Knackig:**
 
