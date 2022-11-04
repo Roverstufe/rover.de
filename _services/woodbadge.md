@@ -9,7 +9,7 @@ Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 # Geplante Kurse
 ## Region Mitte
 
-![Logo WBK](images/../../images/wbk-mitte-bild.png)
+![Logo WBK](/images/wbk/wbk-mitte-bild.png)
 
 Du willst schon seit langem Dein Leitungshandeln üben und verbessern? Du willst Dich Persönlich weiterentwickeln? Neue Kompetenzen und Selbsterfahrungen durch und mit der Projektmethode gewinnen? Dann heißt es für Dich jetzt:
 
@@ -21,10 +21,11 @@ Wir wollen mit Dir eine rundherum nette und lehrreiche Woche im schönen Schwarz
 Teilnahmevoraussetzung ist ein Mindestalter von 22 Jahren und natürlich die abgeschlossene Modulausbildung.
 
 Wir freuen uns auf Dich, Dein Kursteam:
-• Barbara Seiler, Diözesanarbeitskreis Roverstufe DV Freiburg
-• Jan Knoll, Diözesanarbeitskreis Roverstufe DV Fulda
-• Maximilian Grösche, Diözesanarbeitskreis Roverstufe DV Freiburg
-• Lukas Bockstaller, Diözesanarbeitskreis Roverstufe DV Freiburg
+
+- Barbara Seiler, Diözesanarbeitskreis Roverstufe DV Freiburg
+- Jan Knoll, Diözesanarbeitskreis Roverstufe DV Fulda
+- Maximilian Grösche, Diözesanarbeitskreis Roverstufe DV Freiburg
+- Lukas Bockstaller, Diözesanarbeitskreis Roverstufe DV Freiburg
 
 **Kurz und Knackig:**
 
@@ -37,7 +38,7 @@ Zum Kurs gehört ein Entwicklungswochenende vom 7.7.-9.7.2023 im Ziegelhaus in 6
 Weitere Fragen an: [maximilian.groesche@dpsg-freiburg.de](mailto:maximilian.groesche@dpsg-freiburg.de)
 Falls Kinderbetreuung gewünscht wird, nimm bitte Kontakt mit uns auf.
 
-Die Ausschreibung als [PDF]
+Die Ausschreibung als [PDF](/images/wbk/Ausschreibung-WBK23-BFE.pdf)
 
 Die Anmeldung der ausrichtenden Diözesanverbände:
 
