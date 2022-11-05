@@ -1,7 +1,7 @@
 ---
 title: "Schwerpunkte"
 date: 2018-11-18T12:33:46+10:00
-weight: 1
+weight: 2
 ---
 
 In unserer Ordnung finden sich sechs Schwerpunkte der Roverstufe. Sie sind die Inhalte für die Roverinnen und Rover in der roten Stufe.

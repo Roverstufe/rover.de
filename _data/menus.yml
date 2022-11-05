@@ -11,9 +11,12 @@ main:
   - name: "Themen"
     url: "/services/"
     weight: 5
+  - name: "WBK"
+    url: "/services/woodbadge/"
+    weight: 6
   - name: "Kontakt"
     url: "/contact/"
-    weight: 6
+    weight: 7
 
 footer:
   - name: "Home"
