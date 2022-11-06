@@ -1,3 +1,7 @@
-<ul id="instafeed">
-    {% for i in (0..9) %}<li><a href="https://www.instagram.com/{{ include.username }}/"><img src="https://profilepageimages.usecue.com/images/{{ include.username }}/small/{{ i }}.jpg" alt="Instagram picture {{ i | plus:1 }}" /></a></li>{% endfor %}
-</ul>
+<div class="row justify-content-center">
+        {% for i in (0..7) %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-10 img-container mb-2">
+            <img class="" src="https://profilepageimages.usecue.com/images/{{ include.username }}/small/{{ i }}.jpg" alt="Instagram picture {{ i | plus:1 }}" />
+        </div>
+        {% endfor %}
+</div>

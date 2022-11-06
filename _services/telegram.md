@@ -1,7 +1,7 @@
 ---
 title: "Telegram"
 date: 2018-12-28T15:14:39+10:00
-weight: 6
+weight: 10
 ---
 
 Über den Telegram-Verteiler erhälst du alle Neuigkeiten aus der Roverstufe direkt auf dein Smartphone. So erfährst du von aktuellen Aktionen, Veranstaltungen, Infos aus dem Bundesarbeitskreis und vielem mehr – also, schau rein!
