@@ -17,6 +17,9 @@ main:
   - name: "Kontakt"
     url: "/contact/"
     weight: 7
+  - name: "PiW"
+    url: "/piw/"
+    weight: 8
 
 footer:
   - name: "Home"
