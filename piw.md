@@ -1,6 +1,5 @@
 ---
 title: PiW
-layout: contact
 description: Pfingsten in Westernohe 2023
 ---
 
