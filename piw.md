@@ -1,5 +1,5 @@
 ---
-title: PiW
+title: Pfingsten in Westernohe 2023
 description: "Pfingsten in Westernohe 2023"
 weight: 1
 ---
