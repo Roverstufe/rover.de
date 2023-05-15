@@ -1,6 +1,7 @@
 ---
 title: PiW
-description: Pfingsten in Westernohe 2023
+description: "Pfingsten in Westernohe 2023"
+weight: 1
 ---
 
 Pfingsten in Westernohe 2023 mit der Roverstufe. Hier findet ihr unser Programm und die Öffnungszeiten vom Café im Wespennest.
