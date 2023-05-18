@@ -6,4 +6,5 @@ weight: 3
 
 Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 
-# Geplante Kurse
+## Geplante Kurse
+Region West (Silvester 2023/2024)
