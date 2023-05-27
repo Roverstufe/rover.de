@@ -18,12 +18,15 @@ Unsere Inhaltlichen Angebote finden im Bereich rund um das Wespennest Statt und 
 ### Samstag
 14:30 Uhr: Windrad-Ladestation  
 16:00 Uhr: Speeddating  
+16:30 Uhr: Workshop "Frieden und Pfadfinden"  
 20:00 Uhr: Live Musik im Wespennest  
 21:30 Uhr: Silent Disco
 
 ### Sonntag
 10:00 Uhr: Seedbombs  
 10:30 Uhr: Leitenden Stammtisch  
+10:30 Uhr: Workshop "Frieden und Pfadfinden"  
+11:00 Uhr: Workshop "Surf Smart"  
 14:30 Uhr: Elektro-Modell-Bau-Kontest  
 15:00 Uhr: Bock aufs Moot - Internationale Möglichkeiten für Rover\*innen  
 16:00 Uhr: Freiwilligendienste mit den Pfadfinder\*innen  
