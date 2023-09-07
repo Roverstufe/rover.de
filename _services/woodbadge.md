@@ -7,4 +7,6 @@ weight: 3
 Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 
 ## Geplante Kurse
-Region West (Silvester 2023/2024)
+Code:Red Rover-Bayern-WBK, 
+25.5.-2.6.2024
+Infos unter [rover.bayernwbk.de](rover.bayernwbk.de)
