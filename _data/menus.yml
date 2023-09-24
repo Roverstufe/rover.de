@@ -14,11 +14,11 @@ main:
   - name: "WBK"
     url: "/services/woodbadge/"
     weight: 6
-  - name: "Kontakt"
-    url: "/contact/"
-    weight: 7
   - name: "Pfingsten"
     url: "/piw/"
+    weight: 7
+  - name: "Kontakt"
+    url: "/contact/"
     weight: 8
 
 footer:

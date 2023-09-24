@@ -28,8 +28,11 @@ defaults:
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
+url: "https://rover.de"
 plugins:
   - jekyll-environment-variables
+  - jekyll-sitemap
+  - jemoji
 
 exclude:
   - Gemfile
