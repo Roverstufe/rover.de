@@ -13,3 +13,9 @@ Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 
 * Die Ausschreibung als [PDF](/Downloads/Postkarte_WBK_2024_neu.pdf)
 * Infos unter [rover.bayernwbk.de](https://rover.bayernwbk.de)
+
+## Region Mitte
+Winter 2024/2025
+
+## Team NO+West & BAK 
+Spätsommer/Herbst 2025
