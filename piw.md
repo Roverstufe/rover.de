@@ -1,12 +1,14 @@
 ---
-title: Pfingsten in Westernohe 2023
-description: "Pfingsten in Westernohe 2023"
+title: Pfingsten in Westernohe 2024
+description: "Pfingsten in Westernohe 2024"
 weight: 1
 ---
 
-Pfingsten in Westernohe 2023 mit der Roverstufe. Hier findet ihr unser Programm und die Öffnungszeiten vom Café im Wespennest.
+Pfingsten in Westernohe 2024 mit der Roverstufe. Hier findet ihr unser Programm und die Öffnungszeiten vom Café im Wespennest.
 
-## Programm
+Bis es hier die aktuellen Infos zu PiW 2024 gibt, findet sich hier noch das Programm von 2023.
+
+## Programm 2023
 Wir laden alle Mitglieder der Roverstufe und ihre Leiter\*innen ins Café Kurzschluss am Wespennest ein.
 Wie in den vergangenen Jahren soll unser Café Anlauf- und Treffpunkt für Rover\*innen und ihre Leiter\*innen sein.
 Zusätzlich zu Kaffee, Kaltgetränken, und Süßspeisen wird es auch in diesem Jahr wieder verschiedene Spezialangebote geben.
