@@ -4,7 +4,7 @@ date:
 weight: 10
 ---
 
-##Schon gewusst?
+## Schon gewusst?
 
 Der internationale Austausch ist ein Grundpfeiler der Pfadfinder\*innenbewegung und eine zentrale Idee von Baden Powell. Mit der Gründung von WOSM, der Weltpfadfinderorganisation, im Jahre 1920, wurden die Friedensziele der Pfadfinderbewegung erstmals deutlich gemacht.  
  
