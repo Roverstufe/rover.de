@@ -33,3 +33,6 @@ Vor Ort wirst du mit anderen Rover\*innen die Meinung und Sichtweise von Rover\*
 - Die Teilnahme an dem  Vorbereitungs Termin (Videokonferenz wird erwartet)
  
 Wenn du noch Fragen hast, wende dich an rover@dpsg.de oder schreibe uns eine Nachricht bei Instagram @roverstufe 
+
+### Deine Bewerbung
+Du kannst dich [HIER](https://forms.office.com/e/B7GwW9eYq9) bewerben.
