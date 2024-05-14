@@ -1,10 +1,7 @@
 ---
 title: Pfingsten in Westernohe 2024
-layout: services
 description: "Pfingsten in Westernohe 2024"
-intro_image: "images/illustrations/reading.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+weight: 1
 ---
 
 Pfingsten in Westernohe 2024 mit der Roverstufe. Hier findet ihr unser Programm und die Öffnungszeiten vom Café im Wespennest.
