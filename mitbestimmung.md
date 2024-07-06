@@ -35,4 +35,4 @@ Vor Ort wirst du mit anderen Rover\*innen die Meinung und Sichtweise von Rover\*
 Wenn du noch Fragen hast, wende dich an rover@dpsg.de oder schreibe uns eine Nachricht bei Instagram @roverstufe 
 
 ### Deine Bewerbung
-Du kannst dich [HIER](https://forms.office.com/e/B7GwW9eYq9) bewerben.
+Du kannst dich [HIER](https://forms.office.com/e/B7GwW9eYq9) bewerben. Bewerbungsschluss ist der 28.07.2024.
