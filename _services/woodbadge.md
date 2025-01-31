@@ -8,11 +8,13 @@ Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 
 # Geplante Kurse
 
-## Region Mitte
-27.12.2024 - 04.01.2025
-* Ort: Schloss Ebersberg,
-* Die Ausschreibung und alle Infos als [PDF](/Downloads/WBK2024_Ausschreibung.pdf)
-* Zur Anmeldung geht es [hier](https://anmeldung.dpsg-freiburg.de/dvfr/roverwbk/). Anmeldeschluss ist der 16.11.2024
+## Regionen West dun Nord-Ost
+11.10.-19.10.2025
+* Ort: Norddeutschland
+* Den ersten Flyer findet ihr [hier.](/Downloads/WBK2025_save_the_date.jpg)
 
-## Team NO+West & BAK 
-Spätsommer/Herbst 2025
+## Region West
+Frühjahr 2026
+
+## Regionen Mitte und West
+Silvester 2026/2027
