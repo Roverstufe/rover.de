@@ -8,7 +8,7 @@ Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 
 # Geplante Kurse
 
-## Regionen West dun Nord-Ost
+## Regionen West und Nord-Ost
 11.10.-19.10.2025
 * Ort: Norddeutschland
 * Den ersten Flyer findet ihr [hier.](/Downloads/WBK2025_save_the_date.jpg)
