@@ -1,0 +1,152 @@
+- name: Café Roverschutzgebiet
+  sa: ab 18:00 (Fr)
+  so: 10:00–00:00
+  dauer: laufend
+  raum: Wespennest (Café)
+  besch: Wir laden alle Mitglieder der Roverstufe und ihre Leiter*innen ins Café Roverschutzgebiet
+    ein. Dort gibt es Kaffee, Snacks, Abendprogramm und gute Stimmung!
+- name: Naturkosmetik
+  sa: '-'
+  so: 15:00 + 16:00
+  dauer: 2×30 min
+  raum: Wespennest
+  besch: "Stinkt es dir mal wieder? Dann gönn dir etwas Wohlriechendes! \nSpröde Lippen?\
+    \ Wir haben die Lösung: Lippenbalsam! Wir kreieren mit euch zusammen selbstgemachte\
+    \ Naturkosmetik. Kommt vorbei und tut euch etwas Gutes!"
+- name: Männerballett
+  sa: '15:00'
+  so: '-'
+  dauer: ca. 1 h
+  raum: Goldener Saal (angefragt)
+  besch: Coole Tanzmoves lernen und am Abend auf der Bühne glänzen! Alle Rover:innen
+    sind willkommen – nicht nur Männer.
+- name: Entspannungsrunde
+  sa: 12:00/17:00
+  so: 12:00/17:00
+  dauer: je 30 min
+  raum: Wespennest
+  besch: 'Kurz dem Zeltlageralltag entfliehen: Traumreise oder Handmassage. Zweimal
+    täglich Entspannung für alle, die etwas runterkommen wollen.'
+- name: Echt. Glücklich. – Auf Spurensuche mit der Glücksministerin
+  sa: '-'
+  so: '-'
+  dauer: Tagesworkshop
+  raum: Wespennest
+  besch: "Was bedeutet echtes Glück – und wie können wir es in unserem Alltag finden?\
+    \ \nIn diesem inspirierenden Tagesvortrag nimmt uns die Glücksministerin mit auf\
+    \ eine persönliche und gleichzeitig alltagsnahe Reise zum wahren Glück. \nFür\
+    \ alle, die zwischen Zeltstangen und Lagerfeuer auch mal innehalten wollen."
+- name: Hobby Horsing
+  sa: '14:30'
+  so: '-'
+  dauer: ca. 1 h
+  raum: Wespennest
+  besch: "\U0001F434 Bau dir dein eigenes Hobby Horse – oder bring eins mit! \nGemeinsam\
+    \ reiten wir Bahnfiguren & Dressuren. Zum Schluss: das erste Rover Hobby Horsing\
+    \ Turnier – ohne Sieger, aber mit ganz viel Spaß!"
+- name: Vegan & Voll dabei – Lagerküche leicht gemacht
+  sa: '-'
+  so: '10:30'
+  dauer: ca. 1,5 h
+  raum: Wespennest
+  besch: "Du willst auf dem Lager nicht auf gutes, gesundes Essen verzichten – schnell,\
+    \ einfach und vegan? \nDann bist du hier genau richtig! Wir zeigen dir, wie du\
+    \ leckere Gerichte am Feuer, Trangia oder Gaskocher zauberst."
+- name: Müsliriegel selber machen
+  sa: '-'
+  so: '15:00'
+  dauer: ca. 1 h
+  raum: Wespennest
+  besch: "Selbstgemacht sind Müsliriegel und Energy Balls nochmal so lecker. \nHier\
+    \ kannst du verschiedene Varianten selber zubereiten und natürlich auch verkosten."
+- name: Wetbag/Brotbeutel nähen
+  sa: ab 11h + 15h
+  so: '-'
+  dauer: ganztägig
+  raum: Wespennest
+  besch: "Hier kannst du eine Wetbag oder Brottüte (innen Wachstuch, außen Baumwolle)\
+    \ mit einer einfachen Anleitung selbst nähen. \nZum Verschließen bitte einen kleinen\
+    \ Karabiner mitbringen."
+- name: Lachen ist gesund! Die Open Stage – Deine Bühne, dein Moment
+  sa: '20:30'
+  so: '-'
+  dauer: offenes Ende
+  raum: Wespennest
+  besch: "Ob Gitarre, Gesang, Poetry oder kreative Überraschungen – bei der Open Stage\
+    \ gehört die Bühne dir! \nAnmeldung bis Samstag 18h im Wespennest. Motto: 'Lachen\
+    \ ist gesund!'"
+- name: Psychische Gesundheit
+  sa: '14:30'
+  so: '-'
+  dauer: ca. 1,5 h
+  raum: Wespennest
+  besch: "Gedeihen in widrigen Umständen – kann man trotz Belastung und Stress psychisch\
+    \ gesund bleiben? \nIn diesem Workshop beschäftigen wir uns mit Fragen seelischer\
+    \ Belastung: \nWas ist Stress? Wie reagiert mein Körper auf Beanspruchung? Und\
+    \ wie kann ich gut mit Herausforderungen umgehen?"
+- name: Pubquiz
+  sa: '-'
+  so: nach Campfire
+  dauer: ca. 1,5 h
+  raum: Wespennest
+  besch: "Das beliebte Pubquiz im Rovercafé geht in die nächste Runde! \nDiesmal haben\
+    \ wir spannende Fragen rund um Gesundheit und Wohlbefinden vorbereitet. Anmeldung\
+    \ ab Sonntagmorgen im Café."
+- name: ROVERROX
+  sa: '-'
+  so: '14:30'
+  dauer: ca. 1 h
+  raum: Wespennest
+  besch: "\U0001F4A5 ROVERROX – HYROX-Style Workout @ Rover \U0001F4A5 \nSchwitz dich\
+    \ glücklich! Funktionales Training, Beats und Teamspirit für alle Levels."
+- name: Leitenden-Stammtisch
+  sa: '15:00'
+  so: '-'
+  dauer: ca. 1 h
+  raum: Wespennest
+  besch: "Der Leitenden-Stammtisch – ein kleines Come Together für Roverleitende.\
+    \ \nAustausch zu euren aktuellen Fragen und Anliegen sowie aktuelle Infos aus\
+    \ dem Rover-BAK."
+- name: Waldbaden
+  sa: '11:00'
+  so: '-'
+  dauer: ca. 1 h
+  raum: Wespennest
+  besch: "Einfach mal im Wald abschalten und etwas für die eigene Gesundheit tun?\
+    \ \nDann kommt zum Waldbaden. Bringt euch eine Sitzunterlage und Getränke mit."
+- name: Paper Scouts (Young Delegates)
+  sa: '16:00'
+  so: '-'
+  dauer: ca. 1 h
+  raum: Wespennest
+  besch: "Die DPSG ist Teil einer großen Pfadfinderbewegung. \nKennt ihr die Weltverbände\
+    \ und Partnerorganisationen? \nTestet euer Wissen mit den Young Delegates Joscha\
+    \ und Frieda!"
+- name: Yoga
+  sa: '-'
+  so: '11:00'
+  dauer: ca. 1 h
+  raum: Arena/Bühne
+  besch: "Yoga geht immer! \nWir starten entspannt in den Sonntag mit Sonnengrüßen\
+    \ und einfachen bis mittelschweren Yogaübungen. \nMatte oder Handtuch nicht vergessen."
+- name: Your Daily Smile
+  sa: Tagsüber
+  so: '-'
+  dauer: laufend
+  raum: Wespennest
+  besch: "Hier bekommst du deinen täglichen Gute-Laune-Boost! \nKleine Überraschungen\
+    \ warten überall auf dem Lagergelände auf dich."
+- name: Finanzielle und ideelle Fördermöglichkeiten für Ausbildung und Studium
+  sa: '-'
+  so: '15:00'
+  dauer: ca. 1 h
+  raum: Wespennest
+  besch: "Du bist engagiert und gehst deine Ausbildung oder dein Studium mit Begeisterung\
+    \ an? \nDann informiere dich über staatliche Fördermöglichkeiten und Begabtenförderwerke!"
+- name: Zumba
+  sa: '-'
+  so: '11:00'
+  dauer: ca. 1 h
+  raum: Arena/Bühne
+  besch: "Der perfekte Start in den Tag mit Bewegung, Spaß und Musik! \nBequeme Kleidung,\
+    \ Wasserflasche und Handtuch nicht vergessen."
