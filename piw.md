@@ -13,7 +13,7 @@ Unsere Inhaltlichen Angebote finden in und um das Wespennest statt.
   </p>
 </div>
 
-<div class="container my-5">
+
 
 <h2 class="text-center mb-4">Programm­übersicht</h2>
 <p class="lead text-center">
@@ -134,5 +134,3 @@ Unsere Inhaltlichen Angebote finden in und um das Wespennest statt.
     </table>
   </div>
 </details>
-
-</div>
