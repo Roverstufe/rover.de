@@ -29,7 +29,7 @@ weight: 1
 </div>
 
 <!-- Samstag -->
-{% assign samstag = site.data.programmpiw | where_exp: "w", "w.sa and w.sa != '-' and w.sa != ''" %}
+{% assign samstag = site.data.programmpiw | where: "sa", "not -" %}
 
 <details class="mb-4" open>
   <summary class="h4 fw-bold cursor-pointer py-2 d-flex justify-content-between align-items-center">
@@ -87,7 +87,7 @@ weight: 1
 </details>
 
 <!-- Sonntag -->
-{% assign sonntag = site.data.programmpiw | where_exp: "w", "w.so and w.so != '-' and w.so != ''" %}
+{% assign sonntag = site.data.programmpiw | where: "so", "not -" %}
 
 <details>
   <summary class="h4 fw-bold cursor-pointer py-2 d-flex justify-content-between align-items-center">
