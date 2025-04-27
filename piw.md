@@ -25,7 +25,7 @@ weight: 1
 <!-- Suchfeld + Reset-Button -->
 <div class="my-4 text-center position-relative">
   <input id="workshopSearch" type="text" class="form-control w-50 mx-auto" placeholder="Workshop suchen...">
-  <button id="resetSearch" type="button" class="btn-close position-absolute" style="top: 50%; right: 25%; transform: translateY(-50%); display: none;" aria-label="Reset"></button>
+  <button id="resetSearch" type="button" class="reset-button position-absolute" style="top: 50%; right: 25%; transform: translateY(-50%); display: none;" aria-label="Reset">❌</button>
 </div>
 
 {% assign alle_workshops = site.data.programmpiw %}
@@ -156,6 +156,17 @@ details summary .chevron-icon {
 }
 details[open] summary .chevron-icon {
   transform: rotate(90deg);
+}
+
+.reset-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+}
+.reset-button:focus {
+  outline: none;
 }
 
 .table thead th {
