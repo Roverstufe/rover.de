@@ -30,6 +30,8 @@ weight: 1
 
 <!-- Samstag -->
 {% assign samstag = site.data.programmpiw | where: "sa", "not -" %}
+{{ samstag | size }}
+
 
 <details class="mb-4" open>
   <summary class="h4 fw-bold cursor-pointer py-2 d-flex justify-content-between align-items-center">
