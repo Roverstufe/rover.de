@@ -114,59 +114,83 @@ details {
 
 /* Mobile Ansicht */
 @media (max-width: 767.98px) {
-  table, tbody, tr, td, th {
+   /* Vollbreite und sicheres Layout */
+   table, tbody, tr, td, th {
     max-width: 100%;
     box-sizing: border-box;
     overflow-wrap: break-word;
     word-break: break-word;
   }
-  .table-responsive {
-    overflow-x: auto;
-  }
-  td[data-label] {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+  /* Suchergebnisliste schöner */
+  #searchResults .list-group-item {
+    width: 100%;
+    margin: 0 0 1rem 0;
     padding: 1rem;
-    margin: 0;
-    background: #f8f9fa;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    margin-bottom: 0.5rem;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease;
   }
-  td[data-label]::before {
-    content: attr(data-label);
-    font-weight: 600;
-    margin-right: 1rem;
-    color: #333;
-    min-width: 100px;
-  }
-  tr.d-block.d-md-table-row.border {
-    border: none;
-    margin-bottom: 1rem;
-  }
-  .text-wrap .emoji {
-    font-size: 1.8em;
-    margin-right: 0.5em;
-  }
-  td[data-label="Workshop"] strong {
-    font-size: 1.25rem;
+
+  /* Treffereinträge */
+  #searchResults .list-group-item strong {
+    font-size: 1.3rem;
     font-weight: 700;
     color: #212529;
   }
-  td[data-label="Raum"] span.badge {
-    background-color: #dee2e6;
-    color: #212529;
-    font-weight: 600;
-    padding: 0.6rem 0.8rem;
+  #searchResults .list-group-item small {
+    display: block;
+    margin-top: 0.25rem;
+    color: #6c757d;
+    font-size: 1rem;
+  }
+  #searchResults .list-group-item div {
+    margin-top: 0.5rem;
+    color: #495057;
+    font-size: 1rem;
+  }
+
+  /* Tages-Header (Summarys) */
+  details summary {
+    padding: 0.8rem 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    border-radius: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Tages-Header Hover fix */
+  details summary:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Badges (Raum, Dauer) */
+  .badge {
+    padding: 0.25rem 0.6rem;
+    font-size: 0.9rem;
     border-radius: 0.5rem;
   }
-  #searchResults .list-group-item {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto 1rem auto;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* kleiner Schatten */
-    transform: none; /* keine Transformation */
+
+  /* Reset-Button besser klickbar */
+  #resetSearch {
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+  }
+
+  /* Details Dropdown-Icons */
+  details summary .chevron-icon {
+    font-size: 1.5rem;
+  }
+
+  /* Animation */
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
   }
 }
 
