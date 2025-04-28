@@ -2,7 +2,7 @@
   sa: ab 18:00 (Fr)
   so: 10:00–00:00
   dauer: laufend
-  raum: Wespennest (Café)
+  raum: Wespennest
   besch: Wir laden alle Mitglieder der Roverstufe und ihre Leiter*innen ins Café Roverschutzgebiet
     ein. Dort gibt es Kaffee, Snacks, Abendprogramm und gute Stimmung!
 - name: Naturkosmetik
@@ -17,7 +17,7 @@
   sa: '15:00'
   so: '-'
   dauer: ca. 1 h
-  raum: Goldener Saal (angefragt)
+  raum: Goldener Saal
   besch: Coole Tanzmoves lernen und am Abend auf der Bühne glänzen! Alle Rover:innen
     sind willkommen – nicht nur Männer.
 - name: Entspannungsrunde
@@ -59,7 +59,7 @@
   raum: Wespennest
   besch: "Selbstgemacht sind Müsliriegel und Energy Balls nochmal so lecker. \nHier\
     \ kannst du verschiedene Varianten selber zubereiten und natürlich auch verkosten."
-- name: Wetbag/Brotbeutel nähen
+- name: Wetbag/ Brotbeutel nähen
   sa: ab 11h + 15h
   so: '-'
   dauer: ganztägig
