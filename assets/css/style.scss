@@ -114,8 +114,14 @@ details {
 
 /* Mobile Ansicht */
 @media (max-width: 767.98px) {
+  table, tbody, tr, td, th {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
   .table-responsive {
-    overflow-x: unset;
+    overflow-x: auto;
   }
   td[data-label] {
     display: flex;
