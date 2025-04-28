@@ -6,9 +6,9 @@ permalink: /piw/
 weight: 1
 ---
 
-<div class="alert alert-success mb-5" role="alert">
+<div class="alert alert-warning mb-5" role="alert">
   <p class="lead mb-0">
-    Wir laden alle Mitglieder der Roverstufe und ihre Leiter\*innen ins Café mit(be)Stimmung am Wespennest ein. 
+    Wir laden alle Mitglieder der Roverstufe und ihre Leiter\*innen ins Café am Wespennest ein. 
     Zusätzlich zu Kaffee, Kaltgetränken und Süßspeisen wird es auch in diesem Jahr wieder verschiedene Spezialangebote geben. 
     Unsere inhaltlichen Angebote finden in und um das Wespennest statt.
   </p>
@@ -39,7 +39,7 @@ weight: 1
 
   <div class="table-responsive mt-3">
     <table class="table table-striped table-hover table-borderless">
-      <thead>
+      <thead class="d-none d-md-table-header-group">
         <tr>
           <th>Workshop</th>
           <th>Uhrzeit</th>
@@ -51,20 +51,20 @@ weight: 1
       <tbody>
       {% for w in alle_workshops %}
         {% if w.sa and w.sa != "-" and w.sa != "" %}
-        <tr>
-          <td><strong>{{ w.name }}</strong></td>
-          <td>{{ w.sa }}</td>
-          <td>
+        <tr class="d-block d-md-table-row border">
+          <td data-label="Workshop"><strong>{{ w.name }}</strong></td>
+          <td data-label="Uhrzeit">{{ w.sa }}</td>
+          <td data-label="Dauer">
             {% if w.dauer %}
               <span class="badge bg-primary">{{ w.dauer }}</span>
             {% endif %}
           </td>
-          <td>
+          <td data-label="Raum">
             {% if w.raum %}
               <span class="badge bg-secondary">{{ w.raum }}</span>
             {% endif %}
           </td>
-          <td class="text-wrap">
+          <td class="text-wrap" data-label="Beschreibung">
             {% if w.name contains "Zumba" or w.name contains "Yoga" or w.name contains "ROVERROX" %}
               <span class="emoji">🏃‍♂️</span>
             {% elsif w.name contains "Naturkosmetik" or w.name contains "Müsliriegel" or w.name contains "Wetbag" %}
@@ -97,7 +97,7 @@ weight: 1
 
   <div class="table-responsive mt-3">
     <table class="table table-striped table-hover table-borderless">
-      <thead>
+      <thead class="d-none d-md-table-header-group">
         <tr>
           <th>Workshop</th>
           <th>Uhrzeit</th>
@@ -109,20 +109,20 @@ weight: 1
       <tbody>
       {% for w in alle_workshops %}
         {% if w.so and w.so != "-" and w.so != "" %}
-        <tr>
-          <td><strong>{{ w.name }}</strong></td>
-          <td>{{ w.so }}</td>
-          <td>
+        <tr class="d-block d-md-table-row border">
+          <td data-label="Workshop"><strong>{{ w.name }}</strong></td>
+          <td data-label="Uhrzeit">{{ w.so }}</td>
+          <td data-label="Dauer">
             {% if w.dauer %}
               <span class="badge bg-primary">{{ w.dauer }}</span>
             {% endif %}
           </td>
-          <td>
+          <td data-label="Raum">
             {% if w.raum %}
               <span class="badge bg-secondary">{{ w.raum }}</span>
             {% endif %}
           </td>
-          <td class="text-wrap">
+          <td class="text-wrap" data-label="Beschreibung">
             {% if w.name contains "Zumba" or w.name contains "Yoga" or w.name contains "ROVERROX" %}
               <span class="emoji">🏃‍♂️</span>
             {% elsif w.name contains "Naturkosmetik" or w.name contains "Müsliriegel" or w.name contains "Wetbag" %}
@@ -150,12 +150,26 @@ weight: 1
 
 <!-- Stil -->
 <style>
+/* Basis */
 details summary .chevron-icon {
-  transition: transform 0.3s ease;
+  transition: transform 0.4s ease;
   display: inline-block;
 }
 details[open] summary .chevron-icon {
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(1.2);
+}
+details summary:hover {
+  background-color: #d6eefe;
+  cursor: pointer;
+}
+details[open] > summary {
+  background-color: #e9f5ff;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+details[open] > div {
+  animation: fadeIn 0.6s ease;
 }
 
 .reset-button {
@@ -187,46 +201,69 @@ details[open] summary .chevron-icon {
 details {
   margin-bottom: 2rem;
 }
-@media (max-width: 768px) {
-  .table-responsive {
-    overflow-x: auto;
-  }
-}
-
 .text-wrap .emoji {
   font-size: 1.4em;
   vertical-align: middle;
   margin-right: 0.25em;
 }
 
-.highlight {
-  background-color: #fff9c4;
-  animation: pulse 0.5s ease;
-}
-.first-match {
-  background-color: #c8f7c5;
-  animation: flash 0.8s ease;
-}
-.reset-glow {
-  animation: glow 0.5s ease;
+/* Mobile Ansicht */
+@media (max-width: 767.98px) {
+  .table-responsive {
+    overflow-x: unset;
+  }
+  td[data-label] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+    background: #f8f9fa;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 0.5rem;
+  }
+  td[data-label]::before {
+    content: attr(data-label);
+    font-weight: 600;
+    margin-right: 1rem;
+    color: #333;
+    min-width: 100px;
+  }
+  tr.d-block.d-md-table-row.border {
+    border: none;
+    margin-bottom: 1rem;
+  }
+  .text-wrap .emoji {
+    font-size: 1.8em;
+    margin-right: 0.5em;
+  }
+  td[data-label="Workshop"] strong {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #212529;
+  }
+  td[data-label="Raum"] span.badge {
+    background-color: #dee2e6;
+    color: #212529;
+    font-weight: 600;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.5rem;
+  }
 }
 
-@keyframes pulse {
+/* Animationen */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes clickPulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.02); }
+  50% { transform: scale(0.98); }
   100% { transform: scale(1); }
 }
-
-@keyframes flash {
-  0% { background-color: #c8f7c5; }
-  50% { background-color: #a3e4a5; }
-  100% { background-color: #c8f7c5; }
-}
-
-@keyframes glow {
-  0% { box-shadow: 0 0 5px #00c853; }
-  50% { box-shadow: 0 0 15px #00e676; }
-  100% { box-shadow: 0 0 5px #00c853; }
+tbody tr:active {
+  animation: clickPulse 0.3s ease;
 }
 </style>
 
