@@ -144,8 +144,8 @@
   besch: "Du bist engagiert und gehst deine Ausbildung oder dein Studium mit Begeisterung\
     \ an? \nDann informiere dich über staatliche Fördermöglichkeiten und Begabtenförderwerke!"
 - name: Zumba
-  sa: '-'
-  so: '11:00'
+  sa: '11:00'
+  so: ''
   dauer: ca. 1 h
   raum: Arena/Bühne
   besch: "Der perfekte Start in den Tag mit Bewegung, Spaß und Musik! \nBequeme Kleidung,\
