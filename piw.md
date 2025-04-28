@@ -40,7 +40,7 @@ weight: 1
 
   <div class="table-responsive mt-3">
     <table class="table table-striped table-hover table-borderless">
-      <thead class="d-none d-md-table-header-group">
+      <thead>
         <tr>
           <th>Workshop</th>
           <th>Uhrzeit</th>
@@ -98,7 +98,7 @@ weight: 1
 
   <div class="table-responsive mt-3">
     <table class="table table-striped table-hover table-borderless">
-      <thead class="d-none d-md-table-header-group">
+      <thead>
         <tr>
           <th>Workshop</th>
           <th>Uhrzeit</th>
