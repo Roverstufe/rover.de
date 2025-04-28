@@ -27,6 +27,7 @@ weight: 1
   <input id="workshopSearch" type="text" class="form-control w-50 mx-auto" placeholder="Workshop suchen...">
   <button id="resetSearch" type="button" class="reset-button position-absolute" style="top: 50%; right: 25%; transform: translateY(-50%); display: none;" aria-label="Reset">❌</button>
 </div>
+<div id="searchResults" class="list-group my-4" style="display: none;"></div>
 
 {% assign alle_workshops = site.data.programmpiw %}
 
@@ -89,7 +90,7 @@ weight: 1
 </details>
 
 <!-- Sonntag -->
-<details>
+<details open>
   <summary class="h4 fw-bold cursor-pointer py-2 d-flex justify-content-between align-items-center">
     <span>Sonntag</span>
     <span class="chevron-icon">▶️</span>
@@ -148,162 +149,84 @@ weight: 1
 
 </div>
 
-<!-- Stil -->
-<style>
-/* Basis */
-details summary .chevron-icon {
-  transition: transform 0.4s ease;
-  display: inline-block;
-}
-details[open] summary .chevron-icon {
-  transform: rotate(90deg) scale(1.2);
-}
-details summary:hover {
-  background-color: #d6eefe;
-  cursor: pointer;
-}
-details[open] > summary {
-  background-color: #e9f5ff;
-  border-radius: 0.5rem;
-  padding: 0.75rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-details[open] > div {
-  animation: fadeIn 0.6s ease;
-}
-
-.reset-button {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  line-height: 1;
-}
-.reset-button:focus {
-  outline: none;
-}
-
-.table thead th {
-  vertical-align: middle;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-.table tbody td {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  line-height: 1.4;
-}
-.table tbody td:first-child strong {
-  font-size: 1.05rem;
-}
-details {
-  margin-bottom: 2rem;
-}
-.text-wrap .emoji {
-  font-size: 1.4em;
-  vertical-align: middle;
-  margin-right: 0.25em;
-}
-
-/* Mobile Ansicht */
-@media (max-width: 767.98px) {
-  .table-responsive {
-    overflow-x: unset;
-  }
-  td[data-label] {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    margin: 0;
-    background: #f8f9fa;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    margin-bottom: 0.5rem;
-  }
-  td[data-label]::before {
-    content: attr(data-label);
-    font-weight: 600;
-    margin-right: 1rem;
-    color: #333;
-    min-width: 100px;
-  }
-  tr.d-block.d-md-table-row.border {
-    border: none;
-    margin-bottom: 1rem;
-  }
-  .text-wrap .emoji {
-    font-size: 1.8em;
-    margin-right: 0.5em;
-  }
-  td[data-label="Workshop"] strong {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #212529;
-  }
-  td[data-label="Raum"] span.badge {
-    background-color: #dee2e6;
-    color: #212529;
-    font-weight: 600;
-    padding: 0.6rem 0.8rem;
-    border-radius: 0.5rem;
-  }
-}
-
-/* Animationen */
-@keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(-10px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-@keyframes clickPulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(0.98); }
-  100% { transform: scale(1); }
-}
-tbody tr:active {
-  animation: clickPulse 0.3s ease;
-}
-</style>
-
 <!-- Suche -->
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const input = document.getElementById('workshopSearch');
   const resetButton = document.getElementById('resetSearch');
+  const searchResults = document.getElementById('searchResults');
+  const allDetails = document.querySelectorAll('details');
 
   input.addEventListener('input', function () {
     const filter = input.value.toLowerCase();
-    const rows = document.querySelectorAll('tbody tr');
+    let matchCount = 0;
 
-    resetButton.style.display = filter ? 'block' : 'none';
+    // Trefferliste leeren
+    searchResults.innerHTML = '';
 
-    let firstMatchFound = false;
+    if (filter !== '') {
+      resetButton.style.display = 'block';
 
-    rows.forEach(row => {
-      const name = row.querySelector('td strong')?.innerText.toLowerCase() || '';
-      const beschreibung = row.querySelector('td.text-wrap')?.innerText.toLowerCase() || '';
-      const raum = row.querySelector('td span.bg-secondary')?.innerText.toLowerCase() || '';
+      allDetails.forEach(detail => {
+        detail.style.display = 'none'; // Tagesstruktur ausblenden
 
-      const fulltext = name + ' ' + beschreibung + ' ' + raum;
+        const rows = detail.querySelectorAll('tbody tr');
 
-      row.classList.remove('highlight', 'first-match');
+        rows.forEach(row => {
+          const textContent = row.innerText.toLowerCase();
 
-      if (fulltext.includes(filter) && filter !== '') {
-        row.style.display = '';
-        if (!firstMatchFound) {
-          row.classList.add('first-match');
-          firstMatchFound = true;
-        } else {
-          row.classList.add('highlight');
-        }
-      } else if (filter === '') {
-        row.style.display = '';
+          if (textContent.includes(filter)) {
+            matchCount++;
+
+            const workshopName = row.querySelector('[data-label="Workshop"] strong')?.innerText || 'Workshop';
+            const time = row.querySelector('[data-label="Uhrzeit"]')?.innerText || '';
+            const description = row.querySelector('[data-label="Beschreibung"]')?.innerText || '';
+
+            // Icon und Farbe basierend auf Workshop-Namen bestimmen
+            let emoji = '✨';
+            let colorClass = 'card-default';
+
+            if (workshopName.toLowerCase().includes('zumba') || workshopName.toLowerCase().includes('yoga') || workshopName.toLowerCase().includes('roverrox')) {
+              emoji = '🏃‍♂️';
+              colorClass = 'card-sport';
+            } else if (workshopName.toLowerCase().includes('naturkosmetik') || workshopName.toLowerCase().includes('müsliriegel') || workshopName.toLowerCase().includes('wetbag')) {
+              emoji = '🛠️';
+              colorClass = 'card-creative';
+            } else if (workshopName.toLowerCase().includes('traumreisen') || workshopName.toLowerCase().includes('entspannung')) {
+              emoji = '🌙';
+              colorClass = 'card-relax';
+            } else if (workshopName.toLowerCase().includes('psychische gesundheit')) {
+              emoji = '🧠';
+              colorClass = 'card-health';
+            } else if (workshopName.toLowerCase().includes('stammtisch')) {
+              emoji = '☕';
+              colorClass = 'card-coffee';
+            }
+
+            const resultItem = document.createElement('div');
+            resultItem.className = `list-group-item ${colorClass}`;
+            resultItem.innerHTML = `<div><span style="font-size: 1.5rem;">${emoji}</span> <strong>${workshopName}</strong></div><small>${time}</small><div>${description}</div>`;
+
+            searchResults.appendChild(resultItem);
+          }
+        });
+      });
+
+      if (matchCount > 0) {
+        searchResults.style.display = 'block';
       } else {
-        row.style.display = 'none';
+        searchResults.innerHTML = '<div class="list-group-item">Keine Treffer gefunden.</div>';
+        searchResults.style.display = 'block';
       }
-    });
+    } else {
+      // Kein Filter eingegeben: alles wieder normal
+      resetButton.style.display = 'none';
+      searchResults.style.display = 'none';
+      allDetails.forEach(detail => {
+        detail.style.display = '';
+        detail.open = true;
+      });
+    }
   });
 
   resetButton.addEventListener('click', function () {
