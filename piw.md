@@ -182,6 +182,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const time = row.querySelector('[data-label="Uhrzeit"]')?.innerText || '';
             const description = row.querySelector('[data-label="Beschreibung"]')?.innerText || '';
 
+            // NEU: Tag (Samstag/Sonntag) auslesen
+            const tag = detail.querySelector('summary span')?.innerText || '';
+
             // Icon und Farbe basierend auf Workshop-Namen bestimmen
             let emoji = '✨';
             let colorClass = 'card-default';
@@ -205,7 +208,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const resultItem = document.createElement('div');
             resultItem.className = `list-group-item ${colorClass}`;
-            resultItem.innerHTML = `<div><span style="font-size: 1.5rem;">${emoji}</span> <strong>${workshopName}</strong></div><small>${time}</small><div>${description}</div>`;
+
+            // Trefferliste neu aufgebaut: Tag + Uhrzeit
+            resultItem.innerHTML = `
+              <div><span style="font-size: 1.5rem;">${emoji}</span> <strong>${workshopName}</strong></div>
+              <small><strong>${tag}</strong> – ${time}</small>
+              <div>${description}</div>
+            `;
 
             searchResults.appendChild(resultItem);
           }
