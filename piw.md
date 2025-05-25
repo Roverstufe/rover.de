@@ -29,8 +29,6 @@ weight: 1
 </div>
 <div id="searchResults" class="list-group my-4" style="display: none;"></div>
 
-...(vorheriger Inhalt)...
-
 {% assign alle_workshops = site.data.programmpiw %}
 
 <!-- Freitag -->
