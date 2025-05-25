@@ -90,7 +90,7 @@
 - name: Lachen ist gesund! Die Open Stage – Deine Bühne, dein Moment
   sa: '20:30'
   so: '-'
-  dauer: offenes Ende
+  dauer: ca. 1 h
   raum: Wespennest
   besch: 'Ob Gitarre, Gesang, Poetry oder kreative Überraschungen – bei der Open Stage     gehört
     die Bühne dir! Anmeldung bis Samstag 18h im Wespennest. Motto: ''Lachen     ist
@@ -190,6 +190,14 @@
   besch: Der perfekte Start in den Tag mit Bewegung, Spaß und Musik! Bequeme Kleidung,     Wasserflasche
     und Handtuch nicht vergessen.
   sortzeit_sa: 660
+  sortzeit_so: 9999
+- name: Silent Disco
+  sa: nach Campfire
+  so: '-'
+  dauer: ca. 3 h
+  raum: Wespennest
+  besch: 'Kopfhörer drauf, Welt aus: Bei der Silent Disco im Wespennest zählt nur dein Sound – leise nach außen, laut im roverroten Herz.'
+  sortzeit_sa: 9999
   sortzeit_so: 9999
 - name: Leprahilfe weltweit
   sa: ''
