@@ -29,10 +29,12 @@ weight: 1
 </div>
 <div id="searchResults" class="list-group my-4" style="display: none;"></div>
 
+...(vorheriger Inhalt)...
+
 {% assign alle_workshops = site.data.programmpiw %}
 
 <!-- Freitag -->
-{% assign freitag = alle_workshops | where_exp: "item", "item.fr and item.fr != '-' and item.fr != ''" | sort: "sortzeit_fr" %}
+{% assign sorted_fr = alle_workshops | sort: "sortzeit_fr" %}
 <details class="mb-4" open>
   <summary class="h4 fw-bold cursor-pointer py-2 d-flex justify-content-between align-items-center">
     <span>Freitag</span>
@@ -50,7 +52,8 @@ weight: 1
         </tr>
       </thead>
       <tbody>
-      {% for w in freitag %}
+      {% for w in sorted_fr %}
+        {% if w.fr and w.fr != "-" and w.fr != "" %}
         <tr class="d-block d-md-table-row border" data-tag="Freitag" data-sortzeit="{{ w.sortzeit_fr }}">
           <td data-label="Workshop"><strong>{{ w.name }}</strong></td>
           <td data-label="Uhrzeit">{{ w.fr }}</td>
@@ -66,6 +69,7 @@ weight: 1
             {{ w.besch }}
           </td>
         </tr>
+        {% endif %}
       {% endfor %}
       </tbody>
     </table>
@@ -73,7 +77,7 @@ weight: 1
 </details>
 
 <!-- Samstag -->
-{% assign samstag = alle_workshops | where_exp: "item", "item.sa and item.sa != '-' and item.sa != ''" | sort: "sortzeit_sa" %}
+{% assign sorted_sa = alle_workshops | sort: "sortzeit_sa" %}
 <details class="mb-4" open>
   <summary class="h4 fw-bold cursor-pointer py-2 d-flex justify-content-between align-items-center">
     <span>Samstag</span>
@@ -91,7 +95,8 @@ weight: 1
         </tr>
       </thead>
       <tbody>
-      {% for w in samstag %}
+      {% for w in sorted_sa %}
+        {% if w.sa and w.sa != "-" and w.sa != "" %}
         <tr class="d-block d-md-table-row border" data-tag="Samstag" data-sortzeit="{{ w.sortzeit_sa }}">
           <td data-label="Workshop"><strong>{{ w.name }}</strong></td>
           <td data-label="Uhrzeit">{{ w.sa }}</td>
@@ -107,6 +112,7 @@ weight: 1
             {{ w.besch }}
           </td>
         </tr>
+        {% endif %}
       {% endfor %}
       </tbody>
     </table>
@@ -114,7 +120,7 @@ weight: 1
 </details>
 
 <!-- Sonntag -->
-{% assign sonntag = alle_workshops | where_exp: "item", "item.so and item.so != '-' and item.so != ''" | sort: "sortzeit_so" %}
+{% assign sorted_so = alle_workshops | sort: "sortzeit_so" %}
 <details open>
   <summary class="h4 fw-bold cursor-pointer py-2 d-flex justify-content-between align-items-center">
     <span>Sonntag</span>
@@ -132,7 +138,8 @@ weight: 1
         </tr>
       </thead>
       <tbody>
-      {% for w in sonntag %}
+      {% for w in sorted_so %}
+        {% if w.so and w.so != "-" and w.so != "" %}
         <tr class="d-block d-md-table-row border" data-tag="Sonntag" data-sortzeit="{{ w.sortzeit_so }}">
           <td data-label="Workshop"><strong>{{ w.name }}</strong></td>
           <td data-label="Uhrzeit">{{ w.so }}</td>
@@ -148,6 +155,7 @@ weight: 1
             {{ w.besch }}
           </td>
         </tr>
+        {% endif %}
       {% endfor %}
       </tbody>
     </table>
@@ -155,6 +163,7 @@ weight: 1
 </details>
 
 </div>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
