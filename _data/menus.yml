@@ -5,8 +5,8 @@ main:
   - name: "Wiki"
     url: "https://wiki.rover.de"
     weight: 3
-  - name: "Roverway"
-    url: "https://roverway.de"
+  - name: "Roverboard"
+    url: "/mitbestimmung/"
     weight: 4
   - name: "Themen"
     url: "/services/"
@@ -27,6 +27,9 @@ footer:
     weight: 1
   - name: "Kontakt"
     url: "/contact/"
+    weight: 2
+  - name: "Roverboard"
+    url: "/mitbestimmung/"
     weight: 2
   - name: "Impressum"
     url: "https://dpsg.de/de/impressum"
