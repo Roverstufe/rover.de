@@ -9,7 +9,7 @@ Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 # Geplante Kurse
 
 ## Regionen West und Nord-Ost: 11.10.-19.10.2025
-![One-Pager-WBK](/Downloads/Werbung_ersteSeite_ohneLink.png))
+![One-Pager-WBK](/Downloads/Werbung_ersteSeite_ohneLink.png)
 
 * Ort: Gästehaus Dechow, Mecklenburg-Vorpommern
 * Entwicklungswochenende: 17.-19.04.2026, Haltern am See
