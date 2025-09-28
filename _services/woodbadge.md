@@ -17,6 +17,8 @@ Eine Übersicht aller geplanten Woodbagekurse in der Roverstufe.
 * Infos und Anmeldung unter: [dpsg-hamburg.de](https://on.campflow.de/dpsg-dv-hamburg/rover-wbk)
 
 ## Region West 01.05.2026-10.05.2026
+![Region West WBK 2026](/images/wbk/WBK_West_2026_roverde.png)
+
 * Ort: Röderhaid
 * Entwicklungswochenende: 30.10.2026-01.11.2026
 * Infos und Anmeldung unter: [anmeldung.dpsg-essen.de](https://anmeldung.dpsg-essen.de)
